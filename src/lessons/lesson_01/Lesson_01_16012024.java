@@ -1,4 +1,4 @@
-package lesson_01;
+package lessons.lesson_01;
 
 public class Lesson_01_16012024 {
 

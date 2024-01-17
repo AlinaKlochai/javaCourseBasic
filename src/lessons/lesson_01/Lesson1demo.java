@@ -1,4 +1,4 @@
-package lesson_01;
+package lessons.lesson_01;
 
 public class Lesson1demo {
 }

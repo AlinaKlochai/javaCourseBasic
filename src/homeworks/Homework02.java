@@ -38,6 +38,18 @@ public class Homework02 {
         System.out.println((x - 500 - 7) / 10 + ",");
         System.out.println(x - 500 - 60);
 
+        int number = 567;
+
+        int d1 = number / 100;
+        int d2 = (number / 10) % 10;
+        int d3 = number % 10;
+
+        System.out.println("Первая цыфра из нащего числа " + d1);
+        System.out.println("Вторая цыфра из нащего числа " + d2);
+        System.out.println("Третяя цыфра из нащего числа " + d3);
+
+
+
 
     }
 }

@@ -62,5 +62,48 @@ public class Homework04 {
                 System.out.println("Стоимости суммы A+B со скидкой: " + totalPriceWithDiscount+ " руб.");
                 System.out.println("Сумма скидки от этой покупки: " + discount + " руб.");
 
+        System.out.println("-----Task 4-----");
+
+        //Найдите в Интернете данные по температуре в вашем городе за прошедшую неделю.
+        //Вычислите среднюю температуру за неделю и выведете ее на печать.
+
+        int monT = 1;
+        int tueT = 1;
+        int weT = -3;
+        int thT = -2;
+        int frT = -2;
+        int saT = -1;
+        int suT = 1;
+
+        float sumT = (monT + tueT + weT + thT + frT + saT + suT);
+        double averageSumT = sumT / 7;
+        System.out.println("Средняя температурв за неделю: " + averageSumT + "°C");
+
+
+        System.out.println("-----Task 5-----");
+
+        //Какие числа могут получаться в качестве остатка от деления какого-либо целого числа на 2? На 3?
+        //Покажите это на конкретных примерах.
+
+        int number1 = 2;
+        int remTwo1 = number1 % 2;
+        System.out.println("Oстаток от деления на число 2: " );
+        System.out.println(number1 + " % 2 = " + remTwo1);
+        int number2 = 13;
+        int remTwo2 = number2 % 2;
+        System.out.println(number2 + " % 2 = " + remTwo2);
+
+        int number3 = 9;
+        int remThree3 = number3 % 3;
+        System.out.println("Oстаток от деления на число 3: " );
+        System.out.println(number3 + " % 3 = " + remThree3);
+        int number4 = 31;
+        int remFour4 = number4 % 3;
+        System.out.println(number4 + " % 3 = " + remFour4);
+
+
+
+        
+
     }
 }

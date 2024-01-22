@@ -77,7 +77,8 @@ public class Homework04 {
 
         float sumT = (monT + tueT + weT + thT + frT + saT + suT);
         double averageSumT = sumT / 7;
-        System.out.println("Средняя температурв за неделю: " + averageSumT + "°C");
+        String averageResult = String.format("%.1f",averageSumT);
+        System.out.println("Средняя температурв за неделю: " + averageResult + "°C");
 
 
         System.out.println("-----Task 5-----");

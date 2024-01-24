@@ -15,6 +15,11 @@ public class UserInputDemo {
         //ваше имя. Выведете на консоль приветствие типа "Hi YourName".
         System.out.println("Hi " + myName + " !");
 
+        //Тема: Считывание строк с консоли.
+        //Программа должна спрашивать как зовут пользователя,
+        //считывать его имя с консоли и выводить приветствие
+        //в виде: "Hello UserName!".
+
         UserInput ui = new UserInput();
 
         String name = ui.inputName("Введите имя: ");

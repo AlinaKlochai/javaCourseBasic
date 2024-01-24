@@ -16,5 +16,8 @@ public class RobotDemo {
         Robot robot2 = new Robot();
         robot2.sayYourName();
 
+        Robot robot3 = new Robot();
+        robot3.sayYourName3();
+
     }
 }

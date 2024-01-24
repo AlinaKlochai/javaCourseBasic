@@ -19,4 +19,8 @@ public class Robot {
         System.out.println("My name is ROBO");
     }
 
+    public void sayYourName3(){
+        System.out.println("My name is Bobo");
+    }
+
 }

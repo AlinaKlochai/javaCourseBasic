@@ -1,4 +1,4 @@
-package homeworks.homework_06;
+package homeworks.homework_06.task3;
 
    /*
 
@@ -18,6 +18,8 @@ package homeworks.homework_06;
      5. находим разницу
 
      */
+
+import homeworks.homework_06.task3.Pizza;
 
 public class PizzaDemo {
     public static void main(String[] args) {

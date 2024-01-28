@@ -1,4 +1,4 @@
-package homeworks.homework_06;
+package homeworks.homework_06.task3;
 
 public class Pizza {
     int diameter;

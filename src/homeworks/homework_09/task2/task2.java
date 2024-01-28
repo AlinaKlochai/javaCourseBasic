@@ -27,7 +27,6 @@ public class task2 {
         double random4Round = Math.round(random4);
         System.out.println("4st random example: " + random4Round);
 
-
         // Определяем максимальное число
 
         double maxRandomNumber = Math.max(Math.max(random1Round, random2Round), Math.max(random3Round, random4Round));

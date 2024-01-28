@@ -10,6 +10,7 @@ public class task1_2 {
         UserInput ui = new UserInput();
         int x = ui.inputInteger("Введите число от 1 до 3: ");
 
+
         switch (x){
             case 1:
                 System.out.println("Вы ввели число 1.");

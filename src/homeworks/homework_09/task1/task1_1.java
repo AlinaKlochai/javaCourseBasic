@@ -20,6 +20,7 @@ public class task1_1 {
             System.out.println("Вы ввели число 3.");
         }
 
+
     }
 
 }

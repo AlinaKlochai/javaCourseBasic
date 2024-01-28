@@ -7,7 +7,9 @@ package homeworks.homework09;
 public class task2 {
     public static void main(String[] args) {
 
-        // создаем 4 рандомных чисел от 0 до 100
+        // создаем 4 рандомных чисел от 0 до 100 через формулу
+        // min + random() * ( max - min + 1)
+        // Math.random() * ( max - min + 1)
 
         double random1 = Math.random() * ( 100 - 0 + 1) + 0;
         double random1Round = Math.round(random1);

@@ -1,6 +1,6 @@
 package lessons.lesson08;
 
-import homeworks.homework06.Pizza;
+import homeworks.homework_06.task3.Pizza;
 import scanner.UserInput;
 
 public class CalculatorCalories {

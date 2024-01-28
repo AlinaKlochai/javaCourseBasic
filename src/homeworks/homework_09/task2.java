@@ -1,4 +1,4 @@
-package homeworks.homework09;
+package homeworks.homework_09;
 
 //- Запишите в 4 переменные случайные числа от 0 до 100
 //- Выведите все 4 на экран

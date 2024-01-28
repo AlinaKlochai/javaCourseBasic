@@ -1,4 +1,4 @@
-package homeworks.homework08;
+package homeworks.homework_08;
 
 //Написать программу, которая:
 //- оперирует объектами книга со следующими параметрами

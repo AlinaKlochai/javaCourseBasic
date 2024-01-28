@@ -1,4 +1,4 @@
-package homeworks.homework_09;
+package homeworks.homework_09.task2;
 
 //- Запишите в 4 переменные случайные числа от 0 до 100
 //- Выведите все 4 на экран
@@ -26,6 +26,7 @@ public class task2 {
         double random4 = Math.random() * ( 100 - 0 + 1) + 0;
         double random4Round = Math.round(random4);
         System.out.println("4st random example: " + random4Round);
+
 
         // Определяем максимальное число
 

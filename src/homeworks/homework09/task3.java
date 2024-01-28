@@ -34,5 +34,6 @@ public class task3 {
                 System.out.println("Выходной");
         }
 
+
     }
 }

@@ -1,4 +1,4 @@
-package homeworks.homework09;
+package homeworks.homework_09;
 
 import scanner.UserInput;
 

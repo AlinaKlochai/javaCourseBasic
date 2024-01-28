@@ -1,4 +1,4 @@
-package homeworks.homework06;
+package homeworks.homework_06;
 
 /* Задание:
 

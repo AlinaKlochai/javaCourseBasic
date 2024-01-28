@@ -1,4 +1,4 @@
-package homeworks.homework_06;
+package homeworks.homework_06.task2;
 
 /* Задание:
 
@@ -21,6 +21,8 @@ package homeworks.homework_06;
 Распечатать на консоль.
 
  */
+
+import homeworks.homework_06.task2.InputText;
 
 public class InputTextDemo {
     public static void main(String[] args) {

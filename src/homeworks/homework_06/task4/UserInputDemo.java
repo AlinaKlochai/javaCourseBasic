@@ -1,4 +1,6 @@
-package homeworks.homework_06;
+package homeworks.homework_06.task4;
+
+import homeworks.homework_06.task4.UserInput;
 
 public class UserInputDemo {
     public static void main(String[] args) {

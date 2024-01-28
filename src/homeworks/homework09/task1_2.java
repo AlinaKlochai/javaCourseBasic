@@ -8,7 +8,7 @@ public class task1_2 {
     //а программа должна сказать, какое число ввёл пользователь: 1, 2, или 3 с использованием switch
     public static void main(String[] args) {
         UserInput ui = new UserInput();
-        int x = ui.inputInteger("Введите число: ");
+        int x = ui.inputInteger("Введите число от 1 до 3: ");
 
         switch (x){
             case 1:

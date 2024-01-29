@@ -4,7 +4,7 @@ import homeworks.homework_08.var1_unfinished.Book;
 
 public class CheckWhereIsBook {
     // создаем параметр, который показывает книга в хранилище или на руках
-
+/*
     public int checkingWhereIsMyBook(Book bookForChecking) {
         int checkingResult;
 
@@ -18,7 +18,11 @@ public class CheckWhereIsBook {
 
         return checkingResult;
     }
+
+ */
 }
+
+
 
 
 

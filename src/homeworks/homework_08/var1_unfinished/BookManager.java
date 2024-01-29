@@ -1,5 +1,6 @@
-package homeworks.homework_08;
+package homeworks.homework_08.var1_unfinished;
 
+import homeworks.homework_08.var1_unfinished.Book;
 import scanner.UserInput;
 
 public class BookManager {
@@ -11,7 +12,7 @@ public class BookManager {
                 ui.inputText("Введите название книги: "),
                 ui.inputInteger("Введите количество страниц в книге: "),
                 ui.inputInteger("Введите номер в каталоге: "),
-                ui.inputInteger("Есть ли эта книга в библиотеке, если ДА то нажмите 1, если НЕТ то нажмите 0: ")
+                ui.inputInteger("Где на данный момент находится книга? ")
         );
 
     }

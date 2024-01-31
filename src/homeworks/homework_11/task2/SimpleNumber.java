@@ -13,28 +13,22 @@ public class SimpleNumber {
         // запрашиваем у пользователя число
 
         Scanner scanner = new Scanner(System.in);
+        IsSimpleNumber simpleNumber = new IsSimpleNumber();
 
         System.out.println("Введите число: ");
         int number = scanner.nextInt();
 
-        // Проверяем является ли введенное число пользователем ПРОСТЫМ
+        // устанавлием метод который будет проверять введенное число на простоту
 
-        /*
-        boolean isPrime = true;
+        boolean isSimple = simpleNumber.isSimple(number);
 
-        if ((condition1 == 0) && (condition2 == 0)){
-            System.out.println(number + " - это число простое");
+        if (isSimple){
+            System.out.println("Вы ввели " + number + ", а оно является простым.");
+        }else {
+            System.out.println("Вы ввели " + number + ", а оно не является простым.");
+
         }
 
-         */
-
-
-
-
-
     }
-
-
-
 
 }

@@ -34,7 +34,7 @@ public class MyString {
 
             //6 Преобразуйте строку к верхнему регистру.
             String lineToUpperCase = line.toUpperCase();
-            System.out.println("Преобразованная строка к верхнему регистру: " + lineToUpperCase;
+            System.out.println("Преобразованная строка к верхнему регистру: " + lineToUpperCase);
 
             //7 Преобразуйте строку к нижнему регистру.
             String lineToLowerCase = line.toLowerCase();

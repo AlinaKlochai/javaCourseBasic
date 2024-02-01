@@ -2,7 +2,7 @@ package homeworks.homework_13.task1;
 
 import java.util.Arrays;
 
-public class task1 {
+public class ArrayWithRandomElemens {
 
     /*  1.	Создайте массив из 8 случайных целых чисел из интервала [1;50]
         2.	Выведите массив на консоль в строку.
@@ -44,7 +44,7 @@ public class task1 {
 
         //Замените каждый элемент с нечетным индексом на ноль.
 
-        for (int i = 0; i < array.length; i += 2 ) {
+        for (int i = 1; i < array.length; i += 2 ) {
             array[i] = 0;
 
         }

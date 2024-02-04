@@ -49,7 +49,13 @@ public class ArrayDemo {
         int startValue = userInput.inputInteger("Ввелите начальное значение диапазона чисел массива: ");
         int endValue = userInput.inputInteger("Ввелите конечное значение диапазона чисел массива: ");
 
+        System.out.println("Текущий массив заполненный рандомными числами: ");
         service.fillArrayRandom(myArray, startValue, endValue);
+        System.out.println(Arrays.toString(myArray));
+
+        //вызываем работу нашего метода arrayWithoutPairedElements
+        System.out.println("Измененный массив, где каждый элемент с нечетным индексом заменен: ");
+        service.arrayWithoutPairedElements(myArray);
         System.out.println(Arrays.toString(myArray));
     }
 }

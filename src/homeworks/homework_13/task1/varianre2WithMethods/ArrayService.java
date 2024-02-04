@@ -41,4 +41,13 @@ public class ArrayService {
             workingArray[i] = randomValue;
         }
     }
+
+    //Создаем метод, который будет заменять каждый элемент с нечетным индексом на ноль.
+
+    public void arrayWithoutPairedElements(int [] workingArray){
+        for (int i = 1; i < workingArray.length; i += 2 ) {
+            workingArray[i] = 0;
+
+        }
+    }
 }

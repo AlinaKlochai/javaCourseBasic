@@ -37,7 +37,6 @@ public class ArrayWithoutPairedElements {
         }
 
         //Снова выведете массив на консоль в отдельной строке.
-
         System.out.println("измененный массив имеет следующий вид: " + Arrays.toString(array));
 
     }

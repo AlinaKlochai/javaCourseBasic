@@ -40,6 +40,5 @@ public class ArrayWithoutPairedElements {
 
         System.out.println("измененный массив имеет следующий вид: " + Arrays.toString(array));
 
-
     }
 }

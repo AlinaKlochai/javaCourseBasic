@@ -37,9 +37,11 @@ public class ArrayWithWords {
 
         for (int i = 0; i < arrayWithWords.length; i++) {
             if (arrayWithWords[i].length() % 2 == 0) {
-               evenLengthCountOfArray[evenIndex++] = arrayWithWords[i];
+               evenLengthCountOfArray[evenIndex] = arrayWithWords[i];
+                evenIndex++;
             } else {
-                notEvenLengthCountOfArray[notEvenIndex++] = arrayWithWords[i];
+                notEvenLengthCountOfArray[notEvenIndex] = arrayWithWords[i];
+                notEvenIndex++;
             }
         }
 

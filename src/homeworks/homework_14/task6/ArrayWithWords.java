@@ -19,26 +19,29 @@ public class ArrayWithWords {
         int evenLengthCount = 0;
         int notEvenLengthCount = 0;
 
+        //проходися по длине массива
         for (int i = 0; i < arrayWithWords.length; i++) {
-            if (arrayWithWords[i].length() % 2 == 0) {
-                evenLengthCount++;
+            if (arrayWithWords[i].length() % 2 == 0) {    //метод .length() проверяет является ди i-иый елемент четным
+                evenLengthCount++;                        //коглп да, увеоичивает счетчик четных чисел
             } else {
-                notEvenLengthCount++;
+                notEvenLengthCount++;        ////коглп нет, увеоичивает счетчик нечетных чисел
             }
         }
 
-        // Создание массивов
+        // Создание массивов с четным и нечетных уодтчесьвом букв
         String[] evenLengthCountOfArray = new String[evenLengthCount];
         String[] notEvenLengthCountOfArray = new String[notEvenLengthCount];
 
         // Заполнение массивов словами с четным и нечетным количеством букв
-        int evenIndex = 0;
+        int evenIndex = 0; // тут задантся переменная - чеиный индекс
         int notEvenIndex = 0;
 
+
+
         for (int i = 0; i < arrayWithWords.length; i++) {
-            if (arrayWithWords[i].length() % 2 == 0) {
-               evenLengthCountOfArray[evenIndex] = arrayWithWords[i];
-                evenIndex++;
+            if (arrayWithWords[i].length() % 2 == 0) {                     // если длинв i-елементв  - четное число то
+               evenLengthCountOfArray[evenIndex] = arrayWithWords[i];      // мы присваиваем элементу массива слов с честным колтчсьвом значение  (arrayWithWords[i]
+                evenIndex++;                                               // м увеличиваем счетчик
             } else {
                 notEvenLengthCountOfArray[notEvenIndex] = arrayWithWords[i];
                 notEvenIndex++;

@@ -53,16 +53,16 @@ public class ArrayService {
 
      */
     public int[] findMaxValueAndIndex(int [] workingArray, int startValue, int endValue){
-        int max = workingArray[0];
+        int maxElement = workingArray[0];
         int maxIndex = 0;
         for (int i = 0; i < workingArray.length; i++) {
-            if (workingArray[i] > max){
-                max = workingArray[i];
-                maxIndex = i;
+            if (workingArray[i] > maxElement){  // i-тый елемент в нашем массиве больше maxElement
+                maxElement = workingArray[i];  //присвоение максимального елемента к i-тому
+                maxIndex = i;                 //вывести индекс максимального елемента
             }
 
         }
-        return new int[]{max,maxIndex};
+        return new int[]{maxElement,maxIndex};
 
     }
 
@@ -76,25 +76,5 @@ public class ArrayService {
         return sum;
     }
 
-  /*  public int[] createNewArrayWithMaxElements(int [] workingArray, int startValue, int endValue){
-        int max = workingArray[0];
-        int maxIndex = 0;
-        int count = 0;
-        for (int i = 0; i < workingArray.length; i++) {
-            if (workingArray[i] == max){
-                count++;
-                max = workingArray[i];
-                maxIndex = i;
-                if (count > 1){
-                    int[] arrayWithMax = new int[count]
-                }
-            }
-
-        }
-        return new int[]{max,maxIndex};
-
-    }
-
-   */
 
 }

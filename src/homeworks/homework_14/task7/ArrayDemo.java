@@ -61,6 +61,7 @@ public class ArrayDemo {
          int sumAllElements = service.sumAllElements(myArray, startValue, endValue);
         System.out.println("Сумма всех елементов в массиве: " + sumAllElements);
 
+
     }
 
 }

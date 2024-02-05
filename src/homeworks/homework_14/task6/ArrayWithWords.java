@@ -51,7 +51,6 @@ public class ArrayWithWords {
         // Вывод результатов
         System.out.println("Слова с четным количеством букв: " + Arrays.toString(evenLengthCountOfArray));
 
-
         System.out.println("Слова с нечетным количеством букв: " + Arrays.toString(notEvenLengthCountOfArray));
 
 

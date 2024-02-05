@@ -56,6 +56,11 @@ public class ArrayDemo {
         System.out.println("Максимальный элемент: " + max);
         System.out.println("Индекс максимального элемента: " + maxIndex);
 
+        //- найти сумму всех элементов
+
+         int sumAllElements = service.sumAllElements(myArray, startValue, endValue);
+        System.out.println("Сумма всех елементов в массиве: " + sumAllElements);
+
     }
 
 }

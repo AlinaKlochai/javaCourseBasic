@@ -1,4 +1,4 @@
-package homeworks.extraHomework.addHomework2.task11;
+package homeworks.extraHomework.addHomework2.task_11;
 
 public class Robot {
     public void sayHello(){

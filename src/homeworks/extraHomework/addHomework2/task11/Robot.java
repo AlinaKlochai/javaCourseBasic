@@ -50,5 +50,6 @@ public class Robot {
 
     public Robot(String name) {
         this.name = name;
+
     }
 }

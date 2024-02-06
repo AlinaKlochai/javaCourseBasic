@@ -2,7 +2,7 @@ package homeworks.homework_14.task1;
 
 import java.util.Arrays;
 
-public class ArrayDemoIsNotFinisd {
+public class ArrayWithoutMissedNumber {
     public static void main(String[] args) {
         /*Дан массив размера  n-1, содержащий только различные целые числа в диапазоне от 1 до n .
         Найдите недостающий элемент.

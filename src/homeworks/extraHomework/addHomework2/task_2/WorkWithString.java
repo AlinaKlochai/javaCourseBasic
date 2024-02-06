@@ -1,4 +1,4 @@
-package homeworks.extraHomework.addHomework2.task2;
+package homeworks.extraHomework.addHomework2.task_2;
 
 import scanner.UserInput;
 

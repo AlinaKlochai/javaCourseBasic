@@ -5,8 +5,9 @@ package homeworks.homework_19.task2;
 
 import scanner.UserInput;
 
-public class StringDemo {
+public class HowManyWordsInString {
     public static void main(String[] args) {
+
         UserInput userInput = new UserInput();
         String words = userInput.inputText("Введите слова одной строкой через пробел: ");
 

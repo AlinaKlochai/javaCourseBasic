@@ -68,7 +68,7 @@ public class ArrayService {
 
     //- найти сумму всех элементов
 
-    public int sumAllElements(int [] workingArray, int startValue, int endValue){
+    public int sumAllElements(int [] workingArray){
         int sum = 0;
         for (int i = 0; i < workingArray.length; i++){
             sum = sum + workingArray[i];

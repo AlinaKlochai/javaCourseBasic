@@ -58,7 +58,7 @@ public class ArrayDemo {
 
         //- найти сумму всех элементов
 
-         int sumAllElements = service.sumAllElements(myArray, startValue, endValue);
+         int sumAllElements = service.sumAllElements(myArray);
         System.out.println("Сумма всех елементов в массиве: " + sumAllElements);
 
 

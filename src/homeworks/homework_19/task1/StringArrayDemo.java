@@ -25,7 +25,5 @@ public class StringArrayDemo {
         System.out.println("---------Наш массив из в обратном порядке-------------");
         System.out.println(Arrays.toString(arrayReverse));
 
-
-
     }
 }

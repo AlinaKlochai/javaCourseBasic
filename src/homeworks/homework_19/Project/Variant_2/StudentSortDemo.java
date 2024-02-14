@@ -32,9 +32,13 @@ public class StudentSortDemo {
 
         service.printArray(filledArrayOfStudents);
 
-        System.out.println("----Отсортированные студенты по фамилии----");
-        Student[] sortedArrayOfStudent = service.sortStudents(filledArrayOfStudents);
-        service.printArray(sortedArrayOfStudent);
+        System.out.println("----Отсортированные студенты по фамилии с помощью Comparator----");
+        Student[] sortedArrayOfStudentWithComparator = service.sortStudents(filledArrayOfStudents);
+        service.printArray(sortedArrayOfStudentWithComparator);
+
+        System.out.println("----Отсортированные студенты по фамилии методом compareTo:---------");
+        Student[] sortedArrayOfStudentCompareTo = service.sortStudentsCompareTo(filledArrayOfStudents);
+        service.printArray(sortedArrayOfStudentCompareTo);
 
     }
 

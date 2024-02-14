@@ -35,8 +35,29 @@ public class StudentService {
     }
 
     public Student[] sortStudents(Student[] students){
-        Arrays.sort(students, Comparator.comparing(Student::getLastName));
-        return students;
+        Arrays.sort(students, Comparator.comparing(Student::getLastName));    //сортирует массив объектов students типа Student
+        return students;                                                      //по фамилии каждого студента, используя метод getLastName().
+    }
+
+    public Student[] sortStudentsCompareTo(Student[] students) {
+
+        //Создается копия исходного массива, это делается для того, чтобы изменения не затронули исходный массив.
+        Student[] sorted = students.clone();
+
+        //Внешний цикл управляет текущим элементом, с которым сравниваются остальные элементы
+        for (int i = 0; i < sorted.length - 1; i++) {
+
+            // а внутренний цикл управляет элементами, с которыми сравнивается текущий элемент.
+            for (int j = 0; j < sorted.length - 1 - i; j++) {
+                //Это сравнение происходит с использованием метода compareTo, который сравнивает строки лексикографически.
+                if (students[j].getLastName().compareTo(students[j].getLastName()) > 0) {
+                    Student temp = sorted[j];
+                    sorted[i] = sorted[j];
+                    sorted[j] = temp;                                        //После завершения внутреннего цикла элемент с наибольшей фамилией перемещается в конец массива reversed.
+                }
+            }
+        }
+        return sorted;
     }
 
 }

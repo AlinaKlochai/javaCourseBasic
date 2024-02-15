@@ -7,6 +7,6 @@ public class Guitar extends MusicalInstrument{
 
     @Override
     void playNote() {
-        System.out.println("Playing on Guitar: Bryn!");
+        System.out.println("Bryn!");
     }
 }

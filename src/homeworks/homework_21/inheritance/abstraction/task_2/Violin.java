@@ -7,6 +7,6 @@ public class Violin extends MusicalInstrument{
 
     @Override
     void playNote() {
-        System.out.println("Playing piano: Vee-e!");
+        System.out.println("Vee-e!");
     }
 }

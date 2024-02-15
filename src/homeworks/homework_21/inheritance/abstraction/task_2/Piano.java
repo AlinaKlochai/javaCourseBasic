@@ -7,7 +7,7 @@ public class Piano extends MusicalInstrument{
 
     @Override
     void playNote() {
-        System.out.println("Playing on piano: La-la-la!");
+        System.out.println("La-la-la!");
 
     }
 }

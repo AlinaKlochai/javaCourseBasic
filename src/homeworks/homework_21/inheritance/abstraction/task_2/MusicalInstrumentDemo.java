@@ -6,13 +6,16 @@ public class MusicalInstrumentDemo {
         Piano piano = new Piano("Piano");
         Guitar guitar = new Guitar("Guitar");
 
-        violin.getNameOfMusicalInstrument();
+        String name1 = violin.getNameOfMusicalInstrument();
+        System.out.println(name1);
         violin.playNote();
 
-        piano.getNameOfMusicalInstrument();
+        String name2 = piano.getNameOfMusicalInstrument();
+        System.out.println(name2);
         piano.playNote();
 
-        guitar.getNameOfMusicalInstrument();
+        String name3 = guitar.getNameOfMusicalInstrument();
+        System.out.println(name3);
         guitar.playNote();
     }
 }

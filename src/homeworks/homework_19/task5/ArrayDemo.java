@@ -23,9 +23,11 @@ public class ArrayDemo {
         int n = servise.inputSizeOfArray();
 
         int[] arrayFirst = servise.createArray(n);
+        System.out.println("Созданный массив из рандомных чисел: ");
         System.out.println(Arrays.toString(arrayFirst));
 
         int[] arrayWithEvenNumbers = servise.extractEvenNumbers(arrayFirst);
-        System.out.println(Arrays.toString(arrayWithEvenNumbers));
+
+        System.out.println("Массив из четных числел: " + Arrays.toString(arrayWithEvenNumbers));
     }
 }

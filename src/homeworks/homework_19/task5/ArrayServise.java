@@ -38,33 +38,6 @@ public class ArrayServise {
 
     //Создать второй массив только из чётных элементов первого массива, если они там есть, и вывести его на экран.
 
-    /*
-    public int[] createArrayWithEvenElements(int[] arrayFirst) {
-
-        // Сначала подсчитываем количество чётных чисел в исходном массиве
-        int evenCount = 0;
-        for (int i = 0; i < arrayFirst.length; i++) {
-            if (arrayFirst[i] % 2 == 0) {
-                evenCount++;                             // если елемент четный то увеоичиваем счетчик на +1
-            }
-        }
-        // Создаём новый массив, в который будем помещать чётные числа
-            int[] arrayWithEvenElements = new int[evenCount];
-            int index = 0;
-            for (int i = 0; i < arrayFirst.length; i++) {
-                if (arrayFirst[i] % 2 == 0){
-                    arrayWithEvenElements[index] = arrayWithEvenElements[i];
-                    index++;
-                }
-
-            }
-            // Возвращаем новый массив, содержащий чётные числа
-            return arrayWithEvenElements;
-
-    }
-
-     */
-
     public int[] extractEvenNumbers(int[] arrayFirst) {
         // Сначала подсчитываем количество чётных чисел в исходном массиве
         int evenCount = 0;

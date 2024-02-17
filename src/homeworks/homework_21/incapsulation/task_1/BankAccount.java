@@ -1,4 +1,4 @@
-package homeworks.homework_21.encapsulation.task_1;
+package homeworks.homework_21.incapsulation.task_1;
 
 import scanner.UserInput;
 

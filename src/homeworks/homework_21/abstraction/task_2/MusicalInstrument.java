@@ -1,4 +1,4 @@
-package homeworks.homework_21.inheritance.abstraction.task_2;
+package homeworks.homework_21.abstraction.task_2;
 
 abstract class MusicalInstrument {
     private String nameOfMusicalInstrument;

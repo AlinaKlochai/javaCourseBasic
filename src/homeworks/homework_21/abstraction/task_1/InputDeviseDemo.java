@@ -1,4 +1,4 @@
-package homeworks.homework_21.inheritance.abstraction.task_1;
+package homeworks.homework_21.abstraction.task_1;
 
 public class InputDeviseDemo {
     public static void main(String[] args) {

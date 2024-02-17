@@ -1,4 +1,4 @@
-package homeworks.homework_21.inheritance.abstraction.task_1;
+package homeworks.homework_21.abstraction.task_1;
 
 public class Keyboard extends InputDevise{
     public Keyboard(String producer, String model) {

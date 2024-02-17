@@ -1,4 +1,4 @@
-package homeworks.homework_21.inheritance.abstraction.task_1;
+package homeworks.homework_21.abstraction.task_1;
 
 public class Mouse extends InputDevise{
     public Mouse(String producer, String model) {

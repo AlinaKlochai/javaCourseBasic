@@ -14,8 +14,5 @@ public class UserDemo {
 
        servise.setNewPassword();
 
-       String newPassword = user.getPassword();
-        System.out.println(newPassword);
-
     }
 }

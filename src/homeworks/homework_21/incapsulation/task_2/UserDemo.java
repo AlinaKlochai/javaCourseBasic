@@ -10,6 +10,7 @@ public class UserDemo {
         servise.checkOldPassword(passwordFromUser,user.getPassword());
 
         System.out.println("Установка нового пароля--- ");
+        System.out.println("Введите повторно пароль для проверки: ");
 
        servise.setNewPassword();
 

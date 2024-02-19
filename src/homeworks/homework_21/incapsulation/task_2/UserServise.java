@@ -46,11 +46,6 @@ public class UserServise {
     }
 
 
-    public String generateNewPassword() {
-        // Генерируем новый пароль. В этом примере я просто использую строку, вы можете использовать любой механизм генерации паролей.
-        String newPassword = "новый_пароль";
-        return newPassword;
-    }
 
     public void setNewPassword() {
         String oldPassword = inputPassword();

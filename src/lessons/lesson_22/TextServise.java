@@ -1,7 +1,5 @@
 package lessons.lesson_22;
 
-import homeworks.homework_19.Project.Variant_2.Student;
-
 public class TextServise {
 
 

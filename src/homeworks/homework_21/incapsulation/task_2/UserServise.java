@@ -5,7 +5,11 @@ import scanner.UserInput;
 import java.util.Scanner;
 
 public class UserServise {
-    User user = new User("user007","User!007","user007.tuta.io");
+    public UserServise(User user) {
+        this.user = user;
+    }
+
+    User user;
 
     public String inputPassword(){
         UserInput userInput = new UserInput();

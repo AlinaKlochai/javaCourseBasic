@@ -3,7 +3,7 @@ package homeworks.homework_21.incapsulation.task_2;
 public class UserDemo {
     public static void main(String[] args) {
         User user = new User("user007","User!007","user007.tuta.io");
-        UserServise servise = new UserServise();
+        UserServise servise = new UserServise(user);
         String passwordFromUser = servise.inputPassword();
 
         System.out.println("Проверка---");
@@ -14,5 +14,6 @@ public class UserDemo {
 
        servise.setNewPassword();
 
+        System.out.println(user.getPassword());
     }
 }

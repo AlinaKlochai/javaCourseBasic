@@ -19,15 +19,21 @@ public class MapTask1 {
     }
 
     public static Map<Integer, Integer> createHashMapCollection(int[] arr) {
-        Map<Integer, Integer> repetitions = new HashMap<>();
+        Map<Integer, Integer> ourMap = new HashMap<>();
 
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             int key = arr[i];
-            repetitions.put(key, repetitions.getOrDefault(key, 0) + 1);
+            if (ourMap.get(key) != null) {
+                count = ourMap.get(key);
+            }
+
+            count++;
+
+            ourMap.put(key, count);
         }
 
-        return repetitions;
+        return ourMap;
     }
 
 }

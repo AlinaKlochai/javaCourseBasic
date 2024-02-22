@@ -1,4 +1,4 @@
-package homeworks.extraHomework.O_evtraHomeworkBasicCourse2.task_1;
+package homeworks.extraHomework.O_extaHomeworkBasicCourse1.task_1;
 
 public class WhileDefinition1 {
     public static void main(String[] args) {

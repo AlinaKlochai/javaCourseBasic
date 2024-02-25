@@ -1,4 +1,4 @@
-package homeworks.homework_29.task_1;
+package homeworks.homework_29.task_1_ArrayList;
 
 public class Student {
     private String firstName;

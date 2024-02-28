@@ -1,35 +1,35 @@
 package homeworks.homework_30.task_1;
 
 public class Flat implements Comparable<Flat> {
-    private double area;
     private int countOfRoom;
+    private double area;
 
-    public Flat(double area, int countOfRoom) {
-        this.area = area;
+    public Flat(int countOfRoom, double area) {
         this.countOfRoom = countOfRoom;
-    }
-
-    public double getArea() {
-        return area;
+        this.area = area;
     }
 
     public int getCountOfRoom() {
         return countOfRoom;
     }
 
+    public double getArea() {
+        return area;
+    }
+
     @Override
     public String toString() {
         return "Flat{" +
-                "area=" + area +
-                ", countOfRoom=" + countOfRoom +
+                "countOfRoom=" + countOfRoom +
+                ", area=" + area +
                 '}';
     }
 
     @Override
     public int compareTo(Flat flatForCompare) {
-        int compareResult = Double.compare(getArea(), flatForCompare.getArea());
+        int compareResult = getCountOfRoom() - flatForCompare.getCountOfRoom();
         if (compareResult == 0){
-           compareResult = getCountOfRoom() - flatForCompare.getCountOfRoom();
+            compareResult = Double.compare(getArea(), flatForCompare.getArea());;
         }
         return compareResult;
     }

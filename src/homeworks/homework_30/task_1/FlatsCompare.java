@@ -7,9 +7,10 @@ public class FlatsCompare {
     public static void main(String[] args) {
         Set<Flat> flats = new TreeSet<>();
 
-        flats.add(new Flat(95.3,3));
-        flats.add(new Flat(55,2));
-        flats.add(new Flat(55,3));
+        flats.add(new Flat(3,95.3));
+        flats.add(new Flat(2,55.4));
+        flats.add(new Flat(3,55.4));
+
         System.out.println(flats);
     }
 }

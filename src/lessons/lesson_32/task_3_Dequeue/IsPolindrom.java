@@ -21,7 +21,7 @@ public class IsPolindrom {
             characterDeque.addLast(word.charAt(i));
         }
 
-        while (characterDeque.size() > 1){
+        while (!characterDeque.isEmpty()){
             if (!characterDeque.removeFirst().equals(characterDeque.removeLast())){
                 return false;
             }

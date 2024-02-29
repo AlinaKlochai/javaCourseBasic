@@ -6,7 +6,7 @@ public class StackBracketsDemo {
     public static void main(String[] args) {
         String[] stringsForTest = {
                 "(){}[]",
-                "({})",
+                "({}}",
                 "{[]([])}",
                 "}()()",
                 "((())"

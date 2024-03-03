@@ -41,18 +41,13 @@ public class ContactManager {
         return null;
     }
 
-    public Contact getContactByPhoneNumber(String phoneNumber){
-        for (Contact contact : contacts){
-            if (contact.getPhoneNumber().equals(phoneNumber)){
+    public Contact getContactByPhoneNumber(String phoneNumber) {
+        for (Contact contact : contacts) {
+            if (contact.getPhoneNumber().equals(phoneNumber)) {
                 return contact;
             }
         }
         return null;
     }
-
-
-
-
-
 
 }

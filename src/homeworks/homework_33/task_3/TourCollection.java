@@ -49,4 +49,5 @@ public class TourCollection {
                 "tourCollection=" + tourCollection +
                 '}';
     }
+
 }

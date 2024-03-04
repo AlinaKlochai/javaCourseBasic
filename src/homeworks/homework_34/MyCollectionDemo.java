@@ -32,7 +32,5 @@ public class MyCollectionDemo {
         myCollection.printCollection();
 
 
-
-
     }
 }

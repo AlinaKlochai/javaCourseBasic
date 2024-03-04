@@ -58,4 +58,5 @@ public class MyCollection {
                 "list=" + list +
                 '}';
     }
+
 }

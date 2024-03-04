@@ -17,4 +17,5 @@ public class Element {
                 "nameOfProduct='" + nameOfProduct + '\'' +
                 '}';
     }
+
 }

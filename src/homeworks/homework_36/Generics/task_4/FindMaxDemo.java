@@ -11,5 +11,6 @@ public class FindMaxDemo {
         System.out.println("Максимальный елемент из массива doubles: " + FindMax.findMax(doubles));
         System.out.println("Максимальный елемент из массива strings: " + FindMax.findMax(strings));
 
+
     }
 }

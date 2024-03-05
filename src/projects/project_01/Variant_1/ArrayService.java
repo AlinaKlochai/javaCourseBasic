@@ -1,4 +1,4 @@
-package homeworks.project_01.Variant_1;
+package projects.project_01.Variant_1;
 
 import scanner.UserInput;
 

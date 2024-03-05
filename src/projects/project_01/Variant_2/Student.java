@@ -1,4 +1,4 @@
-package homeworks.project_01.Variant_2;
+package projects.project_01.Variant_2;
 
 public class Student {
     private String firstName;

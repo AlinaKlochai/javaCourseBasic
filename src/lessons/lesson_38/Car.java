@@ -9,13 +9,6 @@ public class Car {
         this.countOfDoors = countOfDoors;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public int getCountOfDoors() {
-        return countOfDoors;
-    }
 
     public class Door{
         private double length;

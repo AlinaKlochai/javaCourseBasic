@@ -1,4 +1,4 @@
-package projects.project_02.var_1;
+package projects.project_02.var_1.entity;
 
 import java.util.ArrayList;
 import java.util.List;

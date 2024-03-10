@@ -1,7 +1,9 @@
 package projects.project_02.var_1;
 
-import java.util.ArrayList;
-import java.util.List;
+import projects.project_02.var_1.entity.Course;
+import projects.project_02.var_1.entity.Student;
+import projects.project_02.var_1.service.StudentManager;
+
 import java.util.Optional;
 
 public class UniDemo {

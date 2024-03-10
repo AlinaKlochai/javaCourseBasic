@@ -1,4 +1,7 @@
-package projects.project_02.var_1;
+package projects.project_02.var_1.service;
+
+import projects.project_02.var_1.entity.Course;
+import projects.project_02.var_1.entity.Student;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +9,7 @@ import java.util.Optional;
 
 public class StudentManager {
 
-    private Map<Integer,Student> studentMap;
+    private Map<Integer, Student> studentMap;
 
     public StudentManager() {
         this.studentMap = new HashMap<>();

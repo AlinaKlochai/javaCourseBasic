@@ -1,4 +1,6 @@
-package projects.project_02.var_1;
+package projects.project_02.var_1.entity;
+
+import projects.project_02.var_1.entity.Course;
 
 import java.util.ArrayList;
 import java.util.List;

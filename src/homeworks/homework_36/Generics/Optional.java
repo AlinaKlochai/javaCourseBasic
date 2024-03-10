@@ -23,6 +23,7 @@ public class Optional <T>{
     }
 
     public static void main(String[] args) {
+        System.out.println("---------------------With integer---------------------");
         Optional<Integer> optional1 = new Optional<>(10);
         Optional<Integer> optional2 = new Optional<>(null);
 
@@ -32,8 +33,7 @@ public class Optional <T>{
 
         // Получение значения
         System.out.println("optional1.get(): " + optional1.get());
-        // Попытка получения значения из optional2 приведет к исключению
-        //System.out.println("optional2.get(): " + optional2.get());
+        System.out.println("optional2.get(): " + optional2.get());
 
         // Получение значения или альтернативного значения
         System.out.println("optional1.orElse(0): " + optional1.orElse(0));
@@ -49,7 +49,6 @@ public class Optional <T>{
 
         // Получение значения
         System.out.println("optional1.get(): " + optional3.get());
-        // Попытка получения значения из optional2 приведет к исключению
         System.out.println("optional2.get(): " + optional4.get());
 
         // Получение значения или альтернативного значения

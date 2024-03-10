@@ -1,4 +1,4 @@
-package homeworks.homework_36.Generics;
+package homeworks.homework_36.Generics.task_7;
 
 public class Optional <T>{
     private T value;

@@ -33,8 +33,8 @@ public class CarApp {
         carDealer.findCarByYear(2021);
         carDealer.findCarByYear(2015);
 
-        carDealer.sortCarsByRating();
-        carDealer.sortCarsByPrice();
-        carDealer.sortCarsByYear();
+        carDealer.sortCarsByRatingDown();
+        carDealer.sortCarsByPriceUp();
+        carDealer.sortCarsByYearDown();
     }
 }

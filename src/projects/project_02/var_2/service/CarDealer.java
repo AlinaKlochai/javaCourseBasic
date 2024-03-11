@@ -110,31 +110,62 @@ public class CarDealer {
         }
     }
 
-    public void sortCarsByRating(){
+    public void sortCarsByRatingUp(){
         List<Car> sortedCars = new ArrayList<>(cars.values());
 
-        sortedCars.sort(new CarComparatorRating());
-        System.out.println("Cars sorted by rating: ");
+        sortedCars.sort(new CarComparatorRatingUp());
+        System.out.println("Cars sorted by rating in ascending order: ");
         for (Car car : sortedCars){
             System.out.println(car);
         }
     }
 
-    public void sortCarsByPrice(){
+    public void sortCarsByRatingDown(){
         List<Car> sortedCars = new ArrayList<>(cars.values());
 
-        sortedCars.sort(new CarComparatorPrice());
-        System.out.println("Cars sorted by price: ");
+        sortedCars.sort(new CarComparatorRatingDown());
+        System.out.println("Cars sorted by rating in descending order: ");
         for (Car car : sortedCars){
             System.out.println(car);
         }
     }
 
-    public void sortCarsByYear(){
+    public void sortCarsByPriceUp(){
         List<Car> sortedCars = new ArrayList<>(cars.values());
 
-        sortedCars.sort(new CarComparatorYear());
-        System.out.println("Cars sorted by year: ");
+        sortedCars.sort(new CarComparatorPriceUp());
+        System.out.println("Cars sorted by price in ascending order: ");
+        for (Car car : sortedCars){
+            System.out.println(car);
+        }
+    }
+
+    public void sortCarsByPriceDown(){
+        List<Car> sortedCars = new ArrayList<>(cars.values());
+
+        sortedCars.sort(new CarComparatorPriceDown());
+        System.out.println("Cars sorted by price in descending order: ");
+        for (Car car : sortedCars){
+            System.out.println(car);
+        }
+    }
+
+
+    public void sortCarsByYearUp(){
+        List<Car> sortedCars = new ArrayList<>(cars.values());
+
+        sortedCars.sort(new CarComparatorYearUp());
+        System.out.println("Cars sorted by year in ascending order: ");
+        for (Car car : sortedCars){
+            System.out.println(car);
+        }
+    }
+
+    public void sortCarsByYearDown(){
+        List<Car> sortedCars = new ArrayList<>(cars.values());
+
+        sortedCars.sort(new CarComparatorYearDown());
+        System.out.println("Cars sorted by year in descending order: ");
         for (Car car : sortedCars){
             System.out.println(car);
         }

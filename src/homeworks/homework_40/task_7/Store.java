@@ -1,11 +1,15 @@
 package homeworks.homework_40.task_7;
 
-import homeworks.homework_40.task_8.Person;
+/*
+    Дана коллекция Product - название, категория, цена, количество на складе.
+   Найти среднюю цену продуктов каждой категории, у которых количество превышает заданное значение
+   и отсортировать по убыванию цены
+
+ */
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.OptionalDouble;
-import java.util.stream.Collectors;
 
 public class Store {
     public static void main(String[] args) {

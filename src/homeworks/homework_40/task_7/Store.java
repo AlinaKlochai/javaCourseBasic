@@ -28,6 +28,7 @@ public class Store {
         products.add(p4);
         products.add(p5);
         products.add(p6);
+        products.add(p7);
 
         System.out.println("All products in warehouse:");
         for (Product product : products) {

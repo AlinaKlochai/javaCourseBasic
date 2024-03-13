@@ -16,7 +16,7 @@ public class SortedListStrings {
         List<String>strings = Arrays.asList("apple", "kiwi", "Apple1", "Abonnement","cat");
 
         List<String> sortedList = strings.stream()
-                .filter(s -> s.toLowerCase().startsWith("a"))
+                .filter(s -> s.toUpperCase().startsWith("A"))
                 .sorted()
                 .toList();
 

@@ -27,5 +27,6 @@ public class OrdersApp {
                 ));
 
         System.out.println(totalPriceInMonth);
+
     }
 }

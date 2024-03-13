@@ -30,5 +30,6 @@ public class UniqTegs {
                 .toList();
 
         System.out.println(uniqTegs);
+
     }
 }

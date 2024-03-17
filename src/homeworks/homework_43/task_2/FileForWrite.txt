@@ -1,0 +1,4 @@
+Copying the contents of one file to another
+   Description: Write a Java program that will copy the contents of one text file to another using the FileReader, FileWriter, and BufferedReader classes.
+   text file to another using the FileReader, FileWriter, and BufferedReader classes.
+   The user should be able to specify the source and target files as arguments.

@@ -25,18 +25,19 @@ backEnd
        - Entity
         + Student
         + Course
-        + Teacher
-        + Admin
-        + Test/Question
-        + Учебный материал
+        + Test
+        + Question
+        + TestResult
+        + Admin    ?
+        + Analitic ?
 
        - Repository
-       + Interface общий
-        + для хранения студентов
-        + для хранения курсов
-        + для хранение преподавателей
-        + для хранения тестов
-        + для хранения учебных материалов
+       + RepositoryInterface (add, delete, update(set), find by..., findAll(?))  //<T> - ? / для каждой ентити
+        + StudentsRepository для хранения студентов
+        + CourseRepository   для хранения курсов
+        + TestRepository для хранения тестов
+        + QuestionRepository
+        + TestResultRepository
 
       - dto
         + Student

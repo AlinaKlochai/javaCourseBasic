@@ -12,7 +12,7 @@
       emailAddress,
       password,
       Course - который он себе выбрал
-      List<TestResult> testResult   - ссылка на обьект
+      List<TestResult> testResult   - ссылка на объект
 
 
 2) Course - содержит один окончательный тест    //(кол-во курсов всего 3)
@@ -59,55 +59,39 @@
  контент, вопросы
 
 
+ backEnd
+        - Entity
+         + Student
+         + Course
+         + Test
+         + Question
+         + TestResult
+         + Admin    ?
+         + Analitic ?
 
+        - Repository
+        + RepositoryInterface (add, delete, update(set), find by..., findAll(?))  //<T> - ? / для каждой ентити
+         + StudentsRepository для хранения студентов
+         + CourseRepository   для хранения курсов
+         + TestRepository для хранения тестов
+         + QuestionRepository
+         + TestResultRepository
 
-Test1
-Question1 [0] = [List<String>] - состоит из string1[0], string2[1] string2[3]
-Question2 [1] =
+       - dto
+         + Student
+         + Kurs
+         + Test
+         + учебный материал
 
-Пример
-Question1 [0] "Сколько будет 2+2", []
+       - servise
+         +  для работы с Student (create, validation, add, remove, find by...)
+         +  для работы с Kurs  (create, validation, add, remove, find by...)
+         + и для тестов наверняка
+         + принт любого списка
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ frontEnd
+       - UserMenu for Student
+       - UserMenu for Admin
 
 
 
